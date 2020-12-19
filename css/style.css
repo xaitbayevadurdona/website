@@ -1,0 +1,195 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+/****NAVIGATION****/
+
+.lighten-1{
+	background-color: #008580;
+	height: 58px;
+	box-shadow: none !important;
+	/*position: fixed !important;*/
+	z-index: 3;
+
+}
+
+.logo {
+	height: 50px;
+	margin-top: 4px;
+}
+
+
+.nav-wrapper ul li a{
+	color: #ffbf24;
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: bolder;
+	margin-top: -12px;
+}
+
+#nav-mobile{
+	background-color: #008580 !important;
+}
+
+.drop-content ul a{
+	margin-left: 25px;
+	margin-top: 5px !important;
+}
+
+
+/****BODY****/
+
+.caption h3{
+	color: #ffbf24 !important;
+	font-weight: bold;
+	margin-top: 100px;
+}
+
+.caption h5{
+	color: #ffbf24 !important;
+}
+
+.slider{
+	height: 560px !important;
+	/*width: 80% !important;
+	margin-left: 10%;*/
+}
+
+.slides{
+	height: 575px !important;
+}
+
+.slider .indicators .indicator-item{
+	z-index: 5 !important;
+}
+
+
+.parallax-container {
+  height: 400px;
+  background-size: contain !important;
+}
+
+.teal-text{
+	font-size: 60px !important;
+	font-weight: bolder !important;
+	color: #ffbf24 !important;
+}
+
+p{
+	color: #ffbf24 !important;
+}
+
+.title h5{
+	font-weight: bold;
+	font-size: 30px;
+}
+
+/****FOOTER****/
+
+.page-footer{
+	background-color: #008580 !important;
+}
+
+.col h5{
+	color: #3c3f44;
+	font-weight: bolder;
+	font-size: 22px;
+}
+
+.col ul li{
+	margin-top: 10px !important;
+}
+
+.col ul li a{
+	color: #ffbf24;
+	font-size: 16px;
+	font-family: sans-serif;
+
+}
+
+.col ul i{
+	font-size: 22px;
+	
+}
+
+.col ul i h6{
+	font-size: 14px;
+	color: #ffbf24;	
+}
+ 
+#first_name2, #email{
+	color: #ffbf24;
+}
+
+
+.input-field{
+	margin-top: -10px;
+}
+
+.container a i{
+	float: right;
+	margin-right: 10px;
+	color: white;
+}
+
+.copyright{
+	margin-top: -22px;
+	margin-left: 20%;
+}
+
+
+/*RESPONSIVENESS*/
+@media only screen and (max-width: 600px){
+	.logo{
+		height: 48px;
+	}
+
+	.slider{
+		height: 310px !important;
+
+	}
+
+	.slides{
+		height: 280px !important;
+		color: black;
+	}
+	.caption h3{
+		margin-top: -15px !important;
+	}
+
+	.caption h5{
+		margin-top: -15px !important;
+	}
+
+	.slider .indicators .indicator-item{
+		width: 10px !important;
+		height: 10px !important;
+	}
+
+}
+
+@media only screen and (max-width: 520px){
+	.copyright{
+		margin-top: 10px;
+		margin-left: 5%;
+	}
+
+	
+}
+
+@media only screen and (max-width: 930px){
+	h2 img{
+		width: 140px !important;
+	}
+}
